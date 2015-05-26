@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FPTween" type="flex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/FPTween.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

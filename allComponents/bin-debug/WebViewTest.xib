@@ -1,0 +1,68 @@
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+  <dependencies>
+    <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+  </dependencies>
+  <objects>
+    <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestXib">
+      <connections>
+        <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+      </connections>
+    </placeholder>
+    <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="FPUIView">
+      <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+      <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+      <subviews>
+        <webView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="webView" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-eh-ImZ">
+          <rect key="frame" x="8" y="130" width="352" height="397"/>
+          <color key="backgroundColor" red="0.42989347022285584" green="0.69808546822150153" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        </webView>
+        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="addressField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JHl-lh-Rcm">
+          <rect key="frame" x="16" y="84" width="237" height="30"/>
+          <color key="tintColor" red="0.14645585480269607" green="0.31395038206362502" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+          <fontDescription key="fontDescription" type="system" pointSize="20"/>
+          <textInputTraits key="textInputTraits"/>
+        </textField>
+        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="actionButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjy-qD-XyY">
+          <rect key="frame" x="287" y="79" width="64" height="40"/>
+          <color key="backgroundColor" red="0.27172300449999998" green="0.4516266041" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+          <fontDescription key="fontDescription" type="system" pointSize="20"/>
+          <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+          <state key="normal" title="start">
+            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+          </state>
+        </button>
+        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="activity" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="i8y-jV-MTu">
+          <rect key="frame" x="261" y="89" width="20" height="20"/>
+        </activityIndicatorView>
+        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="backButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Czg-8A-VRL">
+          <rect key="frame" x="16" y="537" width="102" height="40"/>
+          <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+          <fontDescription key="fontDescription" type="system" pointSize="20"/>
+          <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+          <state key="normal" title="back">
+            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+          </state>
+        </button>
+        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="forwardButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aj-wH-BYM">
+          <rect key="frame" x="249" y="537" width="102" height="40"/>
+          <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+          <fontDescription key="fontDescription" type="system" pointSize="20"/>
+          <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+          <state key="normal" title="forward">
+            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+          </state>
+        </button>
+        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="WebViewTest_closeButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKl-rt-4r3">
+          <rect key="frame" x="8" y="24" width="50" height="50"/>
+          <state key="normal" image="close_button.png"/>
+        </button>
+      </subviews>
+      <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+      <point key="canvasLocation" x="414" y="338"/>
+    </view>
+  </objects>
+  <resources>
+    <image name="close_button.png" width="80" height="80"/>
+  </resources>
+</document>

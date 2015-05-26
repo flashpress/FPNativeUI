@@ -1,0 +1,64 @@
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+  <dependencies>
+    <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+  </dependencies>
+  <objects>
+    <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestXib">
+      <connections>
+        <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+      </connections>
+    </placeholder>
+    <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="FPUIView">
+      <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+      <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+      <subviews>
+        <pickerView contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="pickerActive" translatesAutoresizingMaskIntoConstraints="NO" id="lG9-GR-OQJ">
+          <rect key="frame" x="0.0" y="143" width="298" height="162"/>
+        </pickerView>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="labelSelected" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27D-cX-v0r">
+          <rect key="frame" x="3" y="313" width="280" height="21"/>
+          <fontDescription key="fontDescription" type="system" pointSize="17"/>
+          <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+          <nil key="highlightedColor"/>
+        </label>
+        <pickerView contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="pickerClone" translatesAutoresizingMaskIntoConstraints="NO" id="You-hY-zOc">
+          <rect key="frame" x="0.0" y="367" width="298" height="162"/>
+        </pickerView>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="active picker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vo4-r2-fym" restorationIdentifier="instance_0">
+          <rect key="frame" x="5" y="126" width="98" height="21"/>
+          <fontDescription key="fontDescription" type="system" pointSize="15"/>
+          <color key="textColor" white="0.41758424357364055" alpha="1" colorSpace="calibratedWhite"/>
+          <nil key="highlightedColor"/>
+        </label>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="clone picker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQB-hB-asW" restorationIdentifier="instance_1">
+          <rect key="frame" x="5" y="356" width="98" height="21"/>
+          <fontDescription key="fontDescription" type="system" pointSize="15"/>
+          <color key="textColor" white="0.41758424360000002" alpha="1" colorSpace="calibratedWhite"/>
+          <nil key="highlightedColor"/>
+        </label>
+        <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="stepRow" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Er6-aK-zVp">
+          <rect key="frame" x="147" y="86" width="94" height="29"/>
+        </stepper>
+        <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="stepComponent" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="YQf-Q1-I8A">
+          <rect key="frame" x="15" y="86" width="94" height="29"/>
+        </stepper>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="x" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JV-s6-zfd" restorationIdentifier="instance_2">
+          <rect key="frame" x="123" y="90" width="9" height="21"/>
+          <fontDescription key="fontDescription" type="system" pointSize="17"/>
+          <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+          <nil key="highlightedColor"/>
+        </label>
+        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="PickerTest_closeButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKl-rt-4r3">
+          <rect key="frame" x="8" y="24" width="50" height="50"/>
+          <state key="normal" image="close_button.png"/>
+        </button>
+      </subviews>
+      <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+      <point key="canvasLocation" x="414" y="338"/>
+    </view>
+  </objects>
+  <resources>
+    <image name="close_button.png" width="80" height="80"/>
+  </resources>
+</document>

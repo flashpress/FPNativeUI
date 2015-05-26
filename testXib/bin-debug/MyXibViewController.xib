@@ -1,0 +1,44 @@
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+  <dependencies>
+    <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+  </dependencies>
+  <objects>
+    <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyXibViewController">
+      <connections>
+        <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+      </connections>
+    </placeholder>
+    <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="FPUIView">
+      <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+      <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+      <subviews>
+        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gom-sc-p6m">
+          <rect key="frame" x="43" y="41" width="51" height="31"/>
+          <connections>
+            <action selector="touchDown:" destination="-1" eventType="touchDown" id="CrH-nn-mu3"/>
+            <action selector="touchUpOutside:" destination="-1" eventType="touchUpOutside" id="d4k-Sg-0hK"/>
+            <action selector="touchUpInside:" destination="-1" eventType="touchUpInside" id="gAX-Nd-hPN"/>
+            <action selector="valueChanged:" destination="-1" eventType="valueChanged" id="TCu-7G-4vE"/>
+          </connections>
+        </switch>
+        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2u-CC-V4N">
+          <rect key="frame" x="12" y="166" width="110" height="30"/>
+          <state key="normal" title="close native ui">
+            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+          </state>
+          <connections>
+            <action selector="touchDown:" destination="-1" eventType="touchDown" id="qYj-I4-h8i"/>
+            <action selector="touchUpOutside:" destination="-1" eventType="touchUpOutside" id="Zko-SU-Ay3"/>
+            <action selector="touchUpInside:" destination="-1" eventType="touchUpInside" id="8Cp-1o-iHE"/>
+          </connections>
+        </button>
+        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="xLb-XM-JPl">
+          <rect key="frame" x="57" y="108" width="20" height="20"/>
+          <connections/>
+        </activityIndicatorView>
+      </subviews>
+      <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+    </view>
+  </objects>
+</document>

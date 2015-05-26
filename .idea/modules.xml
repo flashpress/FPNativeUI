@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/allComponents/allComponents.iml" filepath="$PROJECT_DIR$/allComponents/allComponents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/formTest/formTest.iml" filepath="$PROJECT_DIR$/formTest/formTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testXib/testXib.iml" filepath="$PROJECT_DIR$/testXib/testXib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videoPlayer/videoPlayer.iml" filepath="$PROJECT_DIR$/videoPlayer/videoPlayer.iml" />
+    </modules>
+  </component>
+</project>

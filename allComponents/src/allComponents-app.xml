@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/16.0">
+	<id>allComponents</id>
+	<filename>allComponents</filename>
+	<name>allComponents</name>
+	<versionNumber>0.0.0</versionNumber>
+
+	<initialWindow>
+		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
+		<autoOrients>true</autoOrients>
+        <fullScreen>false</fullScreen>
+        <visible>true</visible>
+    </initialWindow>
+
+	<icon>
+		<image76x76>icons/icon_76.png</image76x76>
+		<image120x120>icons/icon_120.png</image120x120>
+		<image152x152>icons/icon_152.png</image152x152>
+		<image180x180>icons/icon_180.png</image180x180>
+		<image512x512>icons/icon_512.png</image512x512>
+	</icon>
+
+    <iPhone>
+        <InfoAdditions><![CDATA[
+			<key>UIDeviceFamily</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+			</array>
+		]]></InfoAdditions>
+        <requestedDisplayResolution>high</requestedDisplayResolution>
+    </iPhone>
+	<extensions>
+        <extensionID>ru.flashpress.FPNativeUI</extensionID>
+    </extensions>
+</application>

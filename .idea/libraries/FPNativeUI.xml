@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FPNativeUI" type="flex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/FPNativeUI.ane!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

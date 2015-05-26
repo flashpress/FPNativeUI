@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="testXib">
+    <configurations>
+      <configuration name="testXib" target-platform="Mobile" pure-as="true" main-class="testXib" output-file="testXib.swf" output-folder="$MODULE_DIR$/../_idea_out/testXib">
+        <dependencies target-player="16.0">
+          <entries>
+            <entry library-name="FPNativeUI" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK_16" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android package-file-name="Main" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/testXib-app.xml" package-file-name="testXib">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/../sources/assets" path-in-package="." />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/../sources/example/assets" path-in-package="." />
+          </files-to-package>
+        </packaging-ios>
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../sources/example">
+      <sourceFolder url="file://$MODULE_DIR$/../sources/example/main" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK_16" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="FPNativeUI" level="project" />
+  </component>
+</module>
