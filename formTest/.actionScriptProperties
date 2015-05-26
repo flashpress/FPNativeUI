@@ -2,7 +2,7 @@
 <actionScriptProperties analytics="false" mainApplicationPath="formTest.as" projectUUID="e4c10559-bc53-4121-8e25-3d9430512957" version="11">
   <compiler additionalCompilerArguments="-locale en_US" advancedTelemetry="false" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="false" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="true" useDebugRSLSwfs="true" useFlashSDK="true" verifyDigests="true" warn="true">
     <compilerSourcePath>
-      <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/sources/form/main"/>
+      <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/sources/formTest/main"/>
       <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/sources/assets"/>
     </compilerSourcePath>
     <libraryPath defaultLinkType="0">

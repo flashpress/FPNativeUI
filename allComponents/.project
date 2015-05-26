@@ -24,14 +24,14 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>[source path] AllComponents-assets</name>
+			<name>[source path] allComponents-assets</name>
 			<type>2</type>
-			<locationURI>DOCUMENTS/sources/AllComponents/assets</locationURI>
+			<locationURI>DOCUMENTS/sources/allComponents/assets</locationURI>
 		</link>
 		<link>
 			<name>[source path] main</name>
 			<type>2</type>
-			<locationURI>DOCUMENTS/sources/AllComponents/main</locationURI>
+			<locationURI>DOCUMENTS/sources/allComponents/main</locationURI>
 		</link>
 		<link>
 			<name>[source path] sources-assets</name>

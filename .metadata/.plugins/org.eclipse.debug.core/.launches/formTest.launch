@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.adobe.flexbuilder.debug.launchConfigurationType.multiplatform">
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_AIR_COMMAND_LINE_ARGUMENTS" value=""/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_AIR_PUBLISHER_ID" value=""/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_AIR_SECURITY_POLICY_FILE" value="security-policies/default.xml"/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_APPLICATION" value="src/formTest.as"/>
+<booleanAttribute key="com.adobe.flexbuilder.debug.ATTR_CLEAR_APP_DATA" value="false"/>
+<booleanAttribute key="com.adobe.flexbuilder.debug.ATTR_IS_AUTO_LAUNCH" value="true"/>
+<booleanAttribute key="com.adobe.flexbuilder.debug.ATTR_IS_SIMULATOR" value="true"/>
+<booleanAttribute key="com.adobe.flexbuilder.debug.ATTR_IS_SIMULATOR_ENABLED" value="true"/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_MOBILE_LAUNCH_HANDLER" value="com.adobe.flexide.multiplatform.ios.launching.IOSOnSimulatorLaunchHandler"/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_MOBILE_PLATFORM" value="com.adobe.flexide.multiplatform.ios.platform"/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_PROJECT" value="formTest"/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_RUN_URL" value="file:/Users/sam/mc/fp/ane/nui/_SAMPLES_/formTest/bin-debug/formTest-app.xml"/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_SELECTED_BUILD_TARGET" value=""/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_SIMULATOR_DEVICE" value="iPhone (Retina)"/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_SIMULATOR_SDKLOCATION" value="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs"/>
+<stringAttribute key="com.adobe.flexbuilder.debug.ATTR_SIMULATOR_SDKVERSION" value="iPhoneSimulator.sdk"/>
+<booleanAttribute key="com.adobe.flexbuilder.debug.ATTR_USE_DEFAULT_URLS" value="true"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/formTest"/>
+<listEntry value="/formTest/src/formTest.as"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+</launchConfiguration>

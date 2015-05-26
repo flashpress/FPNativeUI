@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="com.adobe.flexbuilder.project.ui.use.default.location"/>
+	<section name="ExportSigningOptions">
+		<list key="certificates">
+			<item value=""/>
+			<item value="/Users/sam/mc/fp/~iOS/SamDevelop(1-5).p12"/>
+		</list>
+	</section>
+</section>

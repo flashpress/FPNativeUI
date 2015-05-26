@@ -2,8 +2,8 @@
 <actionScriptProperties analytics="false" mainApplicationPath="testXib.as" projectUUID="16a345f6-9016-442c-8e21-409e5c36b6c8" version="11">
   <compiler additionalCompilerArguments="-locale en_US" advancedTelemetry="false" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="false" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="true" useDebugRSLSwfs="true" useFlashSDK="true" verifyDigests="true" warn="true">
     <compilerSourcePath>
-      <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/sources/example/assets"/>
-      <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/sources/example/main"/>
+      <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/sources/testXib/assets"/>
+      <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/sources/testXib/main"/>
       <compilerSourcePathEntry kind="1" linkType="1" path="${DOCUMENTS}/sources/assets"/>
     </compilerSourcePath>
     <libraryPath defaultLinkType="0">

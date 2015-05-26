@@ -17,7 +17,7 @@
         <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/testXib-app.xml" package-file-name="testXib">
           <files-to-package>
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/../sources/assets" path-in-package="." />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/../sources/example/assets" path-in-package="." />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/../sources/testXib/assets" path-in-package="." />
           </files-to-package>
         </packaging-ios>
       </configuration>
@@ -26,8 +26,8 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../sources/example">
-      <sourceFolder url="file://$MODULE_DIR$/../sources/example/main" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/../sources/testXib">
+      <sourceFolder url="file://$MODULE_DIR$/../sources/testXib/main" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />

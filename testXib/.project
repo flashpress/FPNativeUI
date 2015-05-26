@@ -24,19 +24,19 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>[source path] example-assets</name>
-			<type>2</type>
-			<locationURI>DOCUMENTS/sources/example/assets</locationURI>
-		</link>
-		<link>
 			<name>[source path] main</name>
 			<type>2</type>
-			<locationURI>DOCUMENTS/sources/example/main</locationURI>
+			<locationURI>DOCUMENTS/sources/testXib/main</locationURI>
 		</link>
 		<link>
 			<name>[source path] sources-assets</name>
 			<type>2</type>
 			<locationURI>DOCUMENTS/sources/assets</locationURI>
+		</link>
+		<link>
+			<name>[source path] testXib-assets</name>
+			<type>2</type>
+			<locationURI>DOCUMENTS/sources/testXib/assets</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

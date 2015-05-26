@@ -30,8 +30,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/../sources/AllComponents">
-      <sourceFolder url="file://$MODULE_DIR$/../sources/AllComponents/main" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/../sources/allComponents">
+      <sourceFolder url="file://$MODULE_DIR$/../sources/allComponents/main" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="AIRSDK_16" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
