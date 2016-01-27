@@ -5,7 +5,6 @@ package {
     import flash.events.Event;
     import flash.events.EventDispatcher;
 
-    import ru.flashpress.nui.core.loader.FPnuiLoader;
     import ru.flashpress.nui.events.FPControlEvent;
     import ru.flashpress.nui.view.FPXibView;
     import ru.flashpress.nui.view.control.FPButton;
@@ -22,9 +21,7 @@ package {
 
         protected function create():void
         {
-            var loader:FPnuiLoader = new FPnuiLoader();
-            //
-            xibView = loader.load(name);
+            xibView = new FPXibView(name);
             //
             closeButton = xibView.childById(name+'_closeButton') as FPButton;
             if (closeButton) {

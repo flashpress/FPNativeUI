@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<section name="ExportSigningOptions">
-		<list key="provisioning">
-			<item value=""/>
-			<item value="/Users/sam/mc/fp/~iOS/FlashPressAll.mobileprovision"/>
-		</list>
-	</section>
-</section>

@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="videoPlayer">
     <configurations>
-      <configuration name="videoPlayer" target-platform="Mobile" pure-as="true" main-class="VideoApp" output-file="VideoApp.swf" output-folder="$MODULE_DIR$/../_idea_out/videoPlayer">
+      <configuration name="videoPlayer" target-platform="Mobile" pure-as="true" main-class="VideoApp" output-file="VideoApp.swf" output-folder="$MODULE_DIR$/../out/videoPlayer">
         <dependencies target-player="16.0">
           <entries>
             <entry library-name="FPNativeUI" library-level="project">
@@ -12,7 +12,7 @@
               <dependency linkage="Merged" />
             </entry>
           </entries>
-          <sdk name="AIRSDK_16" />
+          <sdk name="AIRSDK_20" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
@@ -32,7 +32,7 @@
     <content url="file://$MODULE_DIR$/../sources/videoPlayer">
       <sourceFolder url="file://$MODULE_DIR$/../sources/videoPlayer/main" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="AIRSDK_16" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="AIRSDK_20" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="FPNativeUI" level="project" />
     <orderEntry type="library" exported="" name="FPTween" level="project" />

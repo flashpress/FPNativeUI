@@ -1,0 +1,8 @@
+out
+*.swf
+*.ipa
+*.tmp
+*.app
+*.apk
+*.dSYM
+.idea/workspace.xml

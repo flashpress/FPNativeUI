@@ -4,7 +4,6 @@ package
 	import flash.events.MouseEvent;
 	
 	import ru.flashpress.nui.FPNativeUI;
-	import ru.flashpress.nui.core.loader.FPnuiLoader;
 	import ru.flashpress.nui.events.FPControlEvent;
 	import ru.flashpress.nui.events.FPSwitchEvent;
 	import ru.flashpress.nui.view.FPActivityIndicatorView;
@@ -22,8 +21,8 @@ package
 			//
 			FPNativeUI.init();
 			//
-			var loader:FPnuiLoader = new FPnuiLoader();
-			xibView = loader.load('MyXib');
+			//var loader:FPnuiLoader = new FPnuiLoader();
+			xibView = new FPXibView('MyXib');
 			//
 			activity = xibView.childById('myActivity') as FPActivityIndicatorView;
 			//

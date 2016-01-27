@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<application xmlns="http://ns.adobe.com/air/application/16.0">
-	<id>testXib</id>
+<application xmlns="http://ns.adobe.com/air/application/20.0">
+	<id>ru.flashpress.test</id>
 	<filename>testXib</filename>
 	<name>testXib</name>
 	<versionNumber>0.0.0</versionNumber>
@@ -26,6 +26,8 @@
 				<string>1</string>
 				<string>2</string>
 			</array>
+			<key>MinimumOSVersion</key>
+			<string>8.0</string>
 		]]></InfoAdditions>
         <requestedDisplayResolution>high</requestedDisplayResolution>
     </iPhone>
