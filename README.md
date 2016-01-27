@@ -66,6 +66,13 @@ Use native UI components in AIR iOS application with ane library <a href="http:/
 </tr>
 </table>
 
+# ExtensionID
+```xml
+<extensions>
+  <extensionID>ru.flashpress.FPNativeUI</extensionID>
+</extensions>
+```
+
 ## Example for load XIB file:
 
 ```ActionScript
