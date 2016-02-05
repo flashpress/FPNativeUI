@@ -60,7 +60,7 @@ Use native UI components in AIR iOS application with ane library <a href="http:/
 	<li>FPPanGesture</li>
 	<li>FPLongPressGesture</li>
 </ul>
-<a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:GestureTest">Gesture examples</a>.
+<a href="https://github.com/flashpress/FPNativeUI/wiki/Gesture-example">Gesture examples</a>.
 </td>
 
 </tr>
