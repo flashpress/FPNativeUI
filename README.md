@@ -30,18 +30,18 @@ Use native UI components in AIR iOS application with ane library <a href="http:/
 <td>
 <b>Components that can be created<br>programmatically without XIB:</b>
 <ul>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:ButtonProgrammatically">FPButton</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:TextProgrammatically">FPTextField</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:TextProgrammatically">FPTextArea</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:TextProgrammatically">FPLabel</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:ActivityProgrammatically">FPActivityIndicatorView</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:PageControlProgrammatically">FPPageControl</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:SegmentProgrammatically">FPSegment</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:SliderProgrammatically">FPSlider</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:StepperProgrammatically">FPStepper</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:SwitchProgrammatically">FPSwitch</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:PickerProgrammatically">FPPicker</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:DatePickerProgrammatically">FPDatePicker</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPButton">FPButton</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPTextField-&-FPTextArea-&-FPLabel">FPTextField</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPTextField-&-FPTextArea-&-FPLabel">FPTextArea</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPTextField-&-FPTextArea-&-FPLabel">FPLabel</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPActivityIndicatorView">FPActivityIndicatorView</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPPageControl">FPPageControl</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPSegment">FPSegment</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPSlider">FPSlider</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPStepper">FPStepper</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPSwitch">FPSwitch</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPPicker">FPPicker</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPDatePicker">FPDatePicker</a></li>
 	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:TableProgrammatically">FPTable</a></li>
 	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:SearchBarProgrammatically">FPSearchBar</a></li>
 	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:WebViewProgrammatically">FPWebView</a></li>
