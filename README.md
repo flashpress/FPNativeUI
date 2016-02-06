@@ -42,11 +42,11 @@ Use native UI components in AIR iOS application with ane library <a href="http:/
 	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPSwitch">FPSwitch</a></li>
 	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPPicker">FPPicker</a></li>
 	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPDatePicker">FPDatePicker</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:TableProgrammatically">FPTable</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:SearchBarProgrammatically">FPSearchBar</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:WebViewProgrammatically">FPWebView</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:VideoPlayerExample">FPVideoPlayer</a></li>
-	<li><a href="http://flashpress.ru/blog/ane/native-ui/?lang=en#examples:DocumentTest">FPDocumentController</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPTable">FPTable</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPSearchBar">FPSearchBar</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPWebView">FPWebView</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPVideoPlayer">FPVideoPlayer</a></li>
+	<li><a href="https://github.com/flashpress/FPNativeUI/wiki/FPDocumentController">FPDocumentController</a></li>
 </ul>
 </td>
 
@@ -60,7 +60,7 @@ Use native UI components in AIR iOS application with ane library <a href="http:/
 	<li>FPPanGesture</li>
 	<li>FPLongPressGesture</li>
 </ul>
-<a href="https://github.com/flashpress/FPNativeUI/wiki/Gesture-example">Gesture examples</a>.
+<a href="https://github.com/flashpress/FPNativeUI/wiki/Gesture-example">Gesture example</a>.
 </td>
 
 </tr>
