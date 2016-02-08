@@ -75,7 +75,7 @@ Use native UI components in AIR iOS application with ane library <a href="http:/
 
 ## Help
 
-Visit the wiki page to get help.
+Visit the <a href="https://github.com/flashpress/FPNativeUI/wiki">wiki page</a> to get help.
 
 
 ## Video demonstration
